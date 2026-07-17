@@ -1,23 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd009844-44f2-46b6-bf59-c9fe93582001" name="Changes" comment="" />
+    <list default="true" id="cd009844-44f2-46b6-bf59-c9fe93582001" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/processed_full.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed_scaled.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/scaler_params.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JupyterProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JupyterProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data/EDA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sample.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="11" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "taufikkardana"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:taufikkardana/WIL-Data-Analytics.git",
+    "accountId": "2557011b-4a4b-4aeb-bf68-bfd5df9426a9"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3F9dodLAWt2jLYOWy9TVz2cUZ7E" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,12 +61,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/dan/PycharmProjects/JupyterProject/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -46,6 +99,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781491394139</updated>
+      <workItem from="1781491395263" duration="12855000" />
+      <workItem from="1782616894382" duration="8000" />
+      <workItem from="1782906122203" duration="1899000" />
+      <workItem from="1783345260608" duration="5553000" />
+      <workItem from="1783893228313" duration="2048000" />
     </task>
     <servers />
   </component>
