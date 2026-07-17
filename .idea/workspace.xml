@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd009844-44f2-46b6-bf59-c9fe93582001" name="Changes" comment="Setting up initial code and folders">
+    <list default="true" id="cd009844-44f2-46b6-bf59-c9fe93582001" name="Changes" comment="Refactor folders">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Dataset_ATS_v2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/preprocessed/Dataset_ATS_v2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data/EDA.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed_full.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/processed_full.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed_scaled.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/processed_scaled.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scaler_params.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/scaler_params.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/train-test-data/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/train-test-data/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sample.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +77,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/processed" />
+      <recent name="$PROJECT_DIR$/data/train-test-data" />
+      <recent name="$PROJECT_DIR$/data/preprocessed" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="make_scaling_doc.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../Claude/make_scaling_doc.js" working-dir="$PROJECT_DIR$/../Claude">
@@ -116,7 +114,7 @@
       <workItem from="1783345260608" duration="5553000" />
       <workItem from="1783893228313" duration="4327000" />
       <workItem from="1784260378967" duration="1042000" />
-      <workItem from="1784261433171" duration="3762000" />
+      <workItem from="1784261433171" duration="4546000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up initial code and folders">
       <option name="closed" value="true" />
@@ -126,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784258045382</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor folders">
+      <option name="closed" value="true" />
+      <created>1784328758108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1784328758108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting up initial code and folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up initial code and folders" />
+    <MESSAGE value="Refactor folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor folders" />
   </component>
 </project>
