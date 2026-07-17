@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd009844-44f2-46b6-bf59-c9fe93582001" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/processed_full.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/processed_scaled.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scaler_params.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JupyterProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JupyterProject.iml" afterDir="false" />
+    <list default="true" id="cd009844-44f2-46b6-bf59-c9fe93582001" name="Changes" comment="Setting up initial code and folders">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dataset_ATS_v2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/preprocessed/Dataset_ATS_v2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data/EDA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed_full.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/processed_full.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed_scaled.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/processed_scaled.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scaler_params.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/scaler_params.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/train-test-data/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/train-test-data/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sample.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="11" />
+    <option name="cachedIndexableFilesCount" value="17" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -34,18 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "taufikkardana"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;taufikkardana&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:taufikkardana/WIL-Data-Analytics.git",
-    "accountId": "2557011b-4a4b-4aeb-bf68-bfd5df9426a9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:taufikkardana/WIL-Data-Analytics.git&quot;,
+    &quot;accountId&quot;: &quot;2557011b-4a4b-4aeb-bf68-bfd5df9426a9&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -62,6 +62,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.make_scaling_doc.js.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -84,6 +85,16 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="make_scaling_doc.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../Claude/make_scaling_doc.js" working-dir="$PROJECT_DIR$/../Claude">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.make_scaling_doc.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -103,11 +114,26 @@
       <workItem from="1782616894382" duration="8000" />
       <workItem from="1782906122203" duration="1899000" />
       <workItem from="1783345260608" duration="5553000" />
-      <workItem from="1783893228313" duration="2048000" />
+      <workItem from="1783893228313" duration="4327000" />
+      <workItem from="1784260378967" duration="1042000" />
+      <workItem from="1784261433171" duration="3762000" />
     </task>
+    <task id="LOCAL-00001" summary="Setting up initial code and folders">
+      <option name="closed" value="true" />
+      <created>1784258045382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784258045382</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setting up initial code and folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting up initial code and folders" />
   </component>
 </project>
